@@ -27,19 +27,26 @@
         </div>
 	</header>
     <main>
-        <div class="contact-section" id="maincontent">
+        <div class="contact-section">
+            <h1 id='maincontent'>Let's get in touch!</h1>
             <img class="contact-image" id="logo" src="images/telephone-call.png" alt="animated telephone" width='100'>
             <form action="https://formspree.io/f/mqknlqog"
         method="POST">
             <fieldset>
             <legend>Leave your questions here!</legend>
-            <label>Your Name</label>
-            <input type="text" placeholder="Enter Your Name" name="name">
-            <label>Your Email</label>
-            <input type="email" name="email">
-            <label>Questions you have about sustainability:</label>
-            <textarea></textarea>
-            <input type="submit" >
+            <label for="name_id1">First Name</label>
+            <input type="text" placeholder="Your First Name" id = "name_id1" name="firstname" required>
+
+            <label for="name_id2">Last Name</label>
+            <input type="text" placeholder="Your Last Name" id = "name_id2" name="lastname" required>
+          
+            <label for="email_id">Your Email</label>
+            <input type="email" placeholder="Email" id = "email_id" name="email" required>
+          
+            <label for="msg">Questions you have about sustainability:</label>
+            <textarea placeholder="Write any question" id = "msg" name="mesg" required></textarea><br>
+          
+            <input type="submit" value = "Submit">
             </fieldset>
         </form>
     </div>
@@ -47,9 +54,9 @@
     <footer>
 		<p>Naoko Maeda &copy; 2022</p>
         <div class="socials">
-            <a href="https://github.com/nemaeda" alt="github link"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/naoko-maeda/" alt="linkedin link"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://naokomaeda.co/" alt="portfolio link"><i class="fa-solid fa-arrow-pointer"></i></a>
+            <a href="https://github.com/nemaeda" alt="github link"><i class="fa-brands fa-github"></i>Github</a>
+            <a href="https://www.linkedin.com/in/naoko-maeda/" alt="linkedin link"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+            <a href="https://naokomaeda.co/" alt="portfolio link"><i class="fa-solid fa-arrow-pointer"></i>Portfolio</a>
         </div>
 	</footer>
 </body>

@@ -178,8 +178,8 @@ footer p {
 form {
     padding: 40px;
     font-size: 20px;
-    background-image: url("../images/greenbackground.jpg");
-    background-color: white;
+    background-color: #CDD2CB;
+    border: 2px solid #503D42;
 }
 
 form legend {
@@ -287,12 +287,12 @@ a.skip:focus {
     color: white;
 }
 
-.flex-flip-card {
+/* .flex-flip-card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .flip-card {
     background-color: transparent;
@@ -335,6 +335,7 @@ a.skip:focus {
     background-size: cover;
     height: 200px; 
     background-image: url("../images/callme.jpg");
+    background-color: white;
     background-repeat: no-repeat;
     margin-bottom: 50px;
 }
@@ -569,8 +570,8 @@ a.skip:focus {
     form {
         padding: 40px;
         font-size: 20px;
-        background-image: url("../images/greenbackground.jpg");
-        background-color: white;
+        background-color: #CDD2CB;
+        border: 2px solid #503D42;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -727,6 +728,7 @@ a.skip:focus {
         background-size: cover; /* Parallax effect */
         height: 400px; /* Parallax effect */
         background-image: url("../images/callme.jpg");
+        background-color: white;
         background-repeat: no-repeat;
         margin-bottom: 50px;
     }

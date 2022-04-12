@@ -61,6 +61,7 @@ p {
     width: 100%;
     padding: 0px 0px 0px 0px;
     /* height: 300px; */
+
 }
 
 .product {
@@ -720,6 +721,10 @@ a.skip:focus {
     .flip-card-back {
         background-color:white;
         transform: rotateY(180deg);
+    }
+
+    .flip-card-text {
+        background-color:white;
     }
 
     #parallax {

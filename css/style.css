@@ -465,5 +465,9 @@ a.skip:focus {
     #parallax {
         background-attachment: initial;
       }
+
+    #portrait.flip-card {
+        transition: none;
+    }
 }
 

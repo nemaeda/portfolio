@@ -466,8 +466,23 @@ a.skip:focus {
         background-attachment: initial;
       }
 
-    #portrait.flip-card {
-        transition: none;
+    .flip-card:hover .flip-card-inner,
+    .flip-card:focus-within .flip-card-inner,
+    .flip-card:active .flip-card-inner,
+    .flip-card:focus .flip-card-inner {
+        transform: none;
+    }
+
+    #logo:hover {
+        animation: none;
+      }
+
+    .product img:hover {
+        transform: none;
+    }
+
+    .image-gallery img:hover {
+        transform: none;
     }
 }
 

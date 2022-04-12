@@ -4,19 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="lightbox2-2.11.3/dist/css/lightbox.css" rel="stylesheet"/>
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="icon" href="images/favicon.ico">
     <title>Document</title>
+    <script src="https://kit.fontawesome.com/92d7c09a84.js" crossorigin="anonymous"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E6NSJ35C7N"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E6NSJ35C7N');
+</script>
 </head>
 <body>
-    <img src="images/logo.svg" alt="favicon" width="200" />
-    <img src="images/trees.jpg" alt="trees" width="200" />
-    <p>Welcome to Save our Planet! On this site, you can find information about how you can become more sustainable through buying more environmentally products for everyday life or the specifics about what you can and can't recycle and compost.</p>
-    <img src="images/winter.jpg" alt="winter" width="200" />
-    <img src="images/spring.jpg" alt="spring" width="200" />
-    <img src="images/fall.jpg" alt="fall" width="200" />
-    <img src="images/summer.jpg" alt="summer" width="200" />
-    <img src="images/seals.jpg" alt="seals" width="200" />
-    <img src="images/giraffes.jpg" alt="giraffes" width="200" />
-    <img src="images/polarbears.jpg" alt="polar bears" width="200" />
-    <p>If everyone makes an effort to save the planet, then we have a chance at creating a less gloomy future for generations to come. The things that we value most such as seasons, nature, and the animals that create the foundation of this planet are worth fighting for, and we hope that this site allows you to start making an impact.</p>
+    <header>
+        <a class="skip" href="#maincontent">Skip to main content</a>
+		<nav>
+			<ul>
+                <li class="active"><a href = "index.html">Home</a></li>
+				<li><a href = "products.html">Sustainable Products</a></li>
+				<li><a href = "info.html">Ann Arbor Guidelines</a></li>
+				<li><a href = "about.html">About</a></li>
+                <li><a href = "contact.html">Contact</a></li>
+			</ul>
+		</nav>
+        <div class="container">
+            <img class="wrapper" src="images/trees.jpg" alt="trees" width="200" />
+            <div class="centered">Save the Planet</div>
+        </div>
+	</header>
+    <main>
+        <div class="home-text">
+        <h1 id='maincontent'>Why save our planet now?</h1>
+            <div class="section">
+                <h2>The current climate crisis</h2>
+                <p>Climate experts predict that in 9 years, we will have reached the point of no return. This can be fixed if we all work now to reduce our carbon footprint, but I have found the problem of adjusting to a more sustainable lifestyle is lack of knowledge.</p>
+            </div>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="images/fact.jpg" alt="earthfact">
+                  </div>
+                  <div class="flip-card-back">
+                    <p class="flip-card-text">The first ever Earth Day was in 1970, and the day was chosen to maximize students' involvement as it served as a midpoint between students' Spring Break and final exams of the year (Parade.com).</p>
+                  </div>
+                </div>
+            </div>
+            <div class="section">
+                <h2>How does this website help people?</h2>
+                <p>Save our Planet centralizes information on how we can be more sustainable so that people don't need to waste time searching online. I want to provide eco-friendly alternatives that mimic the experience of wasteful products.</p>
+            </div>
+            <div class="section">
+                <h2>Why should I care?</h2>
+                <p>When reflecting on my own life, I recognized that most of the experiences I am most grateful for are associated with the climate. Below, I have shown my favorite parts about the planet, and I don't think future generations deserve to experience life without them. What parts of the planet do you value the most?</p>
+            </div>
+        </div>
+        <div class="image-gallery">
+            <a href="images/winter.jpg" data-lightbox="home gallery" data-title="Snowy days"><img src="images/winter.jpg" alt="winter" width="200" /></a>
+
+            <a href="images/forest.jpg" data-lightbox="home gallery" data-title="Walks through the woods"><img src="images/forest.jpg" alt="forest" width="200" /></a>
+
+            <a href="images/fall.jpg" data-lightbox="home gallery" data-title="Fall leaves in every shade of red"><img src="images/fall.jpg" alt="fall" width="200" /></a>
+
+            <a href="images/seals.jpg" data-lightbox="home gallery" data-title="Seals in their icy habitats"><img src="images/seals.jpg" alt="seals" width="200" /></a>
+
+            <a href="images/spring.jpg" data-lightbox="home gallery" data-title="Spring flowers and birds chirping"><img src="images/spring.jpg" alt="spring" width="200" /></a>
+
+            <a href="images/giraffes.jpg" data-lightbox="home gallery" data-title="The elegant spots on a giraffe"><img src="images/giraffes.jpg" alt="giraffes" width="200" /></a>
+
+            <a href="images/summer.jpg" data-lightbox="home gallery" data-title="Lying on a beach in the summer"><img src="images/summer.jpg" alt="summer" width="200" /></a>
+
+            <a href="images/sunset.jpg" data-lightbox="home gallery" data-title="A colorful sunset with pinks, purples, and blues"><img src="images/sunset.jpg" alt="sunsets" width="200" /></a>
+
+            <a href="images/polarbears.jpg" data-lightbox="home gallery" data-title="A furry polarbear enjoying the cold"><img src="images/polarbears.jpg" alt="polar bears" width="200" /></a>
+        </div>
+        <div class="section">
+            <h2>Start exploring</h2>
+            <p>To start your eco-friendly journey, I recommend you to explore the products under the "Sustainable Products" tab for reference. <a href="products.html">Explore products</a></p>
+        </div>
+    </main>
+    <footer>
+        <p>Naoko Maeda &copy; 2022</p>
+        <div class="socials">
+            <a href="https://github.com/nemaeda" alt="github"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/naoko-maeda/" alt="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://naokomaeda.co/" alt="portfolio"><i class="fa-solid fa-arrow-pointer"></i></a>
+        </div>
+	</footer>
+    <script src="lightbox2-2.11.3/dist/js/lightbox-plus-jquery.js">
+        lightbox.option({
+        'resizeDuration': 200,
+        'alwaysShowNavOnTouchDevices': true
+        })
+    </script>
 </body>
 </html>

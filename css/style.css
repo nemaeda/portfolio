@@ -479,10 +479,12 @@ a.skip:focus {
 
     .product img:hover {
         transform: none;
+        border: none;
     }
 
     .image-gallery img:hover {
         transform: none;
+        border: 2px solid #B28B84;
     }
 }
 
